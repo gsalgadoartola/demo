@@ -13,6 +13,6 @@ universalBasePipeline {
     imageBuilderURL = "https://github.com/gl-container-images/app-golang.git"
     imageBuilderVersion = "master"
     golangImage = "quay.io/gsalgadoartola/golang:1.12.12-1"
-    containerToolsImage = "quay.io/gsalgadoartola/container-tools-1.0"
+    containerToolsImage = "quay.io/gsalgadoartola/container-tools:1.0"
     infraURL = "https://github.com/gsalgadoartola/demo-infra.git"
 }
