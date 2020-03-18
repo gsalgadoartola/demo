@@ -44,7 +44,7 @@ func healthHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	version = "v2"
+	version = "v1"
 	if len(os.Args) > 1 {
 		version = os.Args[1]
 	}
